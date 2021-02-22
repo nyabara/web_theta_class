@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<style type="text/css">
+		h1{
+			color: #1A85C6;
+		}
+		form{
+			border: 1px #1A85C6 solid;
+			width:40%;
+			padding: 15px;
+			border-radius: 10px;
+
+		}
+		#submit{
+			background-color: #1A85C6;
+			color:white;
+			border: 0px;
+			padding: 9px;
+			border-radius: 5px;
+		}
+		#editText{
+			border: 1px #1A85C6 solid;
+			border-radius: 5px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1>Web Development</h1>
+	<form>
+		<label>Username</label><br>
+		<input id="editText" type="text" placeholder="Your name" required="" /><br><br>
+		<label>Phone</label><br>
+		<input id="editText" type="number" placeholder="PhoneNo" required=""/><br><br>
+		<label>Email</label><br>
+		<input id="editText" type="email" placeholder="@gmail.com" required=""/><br><br>
+		<label>Skills</label><br>
+		<input type="checkbox" name="html"><label>HTML</label><br>
+		<input type="checkbox" name="css"><label>CSS</label><br>
+		<input type="checkbox" name="php"><label>PHP</label><br>
+		<input type="checkbox" name="android"><label>ANDROID</label><br>
+		<label>Gender</label><br>
+		<input type="radio" name="gender"><label>Male</label><br>
+		<input type="radio" name="gender"><label>Male</label><br>
+		<label>Password</label><br>
+		<input id="editText" type="password" placeholder="**********" required=""/><br><br>
+		<input id="submit" type="submit" value="SignIn"/>
+</body>
+</html>
