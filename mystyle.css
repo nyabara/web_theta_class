@@ -1,0 +1,28 @@
+h1{
+	color: #14AE55;
+}
+body{
+	background-color: 
+}
+.nav{
+	background-color: #73523;
+	padding: 10px;
+	
+}
+span{
+
+}
+a{
+
+}
+.food_image{
+	width: 1000px;
+	height: 200px;
+}
+.food_item{
+	border: 1px #D03905 solid;
+	width: 300px;
+	padding: 5px;
+	border-radius: 5px;
+
+}
